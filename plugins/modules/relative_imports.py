@@ -4,6 +4,10 @@
 from __future__ import absolute_import, division, print_function
 __metaclass__ = type
 
+DOCUMENTATION = '''
+module: relative_imports
+'''
+
 from ansible.module_utils.basic import AnsibleModule
 
 from ..module_utils import mod
