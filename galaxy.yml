@@ -11,3 +11,8 @@ license:
   - BSD-3-Clause
 repository: http://github.com/moreati/ansible-test_artifacts
 issues: http://github.com/moreati/ansible-test_artifacts/issues
+
+build_ignore:
+  - '.gitignore'
+  - '.venv'
+  - '*.tar.gz'
